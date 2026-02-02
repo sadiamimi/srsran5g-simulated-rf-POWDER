@@ -167,7 +167,6 @@ request.addRole(
     )
 )
 request.addOverride(Override("srsran_project_build_5gc", value="true"))
-request.addOverride(Override("srsran_project_repo", value="https://github.com/sadiamimi/srsRAN_Project.git"))
 
 if params.deployric:
     request.addOverride(Override("srsran_project_enable_du_e2", value="true"))
